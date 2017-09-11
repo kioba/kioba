@@ -1,8 +1,26 @@
-## curriculum vitae
+## Charls Somodi
 
-### Languages
+|nickname| Kioba|
+|:-:|:-:|
+|date of birth| 02/02/1991|
+|phone| comming soon|
+|hangout| charlssom@gmail.com|
+|messenger| m.me/k1oba|
+
+|email |Twitter | Github| Medium|
+|:-: |:-: |:-:|:-:|
+|[![](//main.png)]("mailto:charlssom@gmail.com") |[![](//twitter.png)](https://twitter.com/kiobaa) |[![](//github.png)](https://github.com/kioba)| [![](//medium.png)](https://medium.com/@Kiomio)|
+|charlssom@gmail.com | @kiobaa| github.com/kioba|medium.com/@Kiomio|
+
+## Blog
+  - [Handling search with RxJava2 and Kotlin](https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4)  
+  - [Baby steps in reactive programming with Kotlin (coming soon)](TODO)   
+  - [Smart RecycleAdapter Part I: BaseViewHolder and Binding (coming soon)](TODO)  
+  - [Smart RecycleAdapter Part II: Handling events (coming soon)](TODO)  
+
+## Languages
 Kotlin, Java, Rust, C/C++, C#, Python
-### Career
+## Career
 
   **May 2017 - Present: Freelancer Android Kotlin developer**  
   
@@ -22,7 +40,7 @@ Projects I participated:
 - Research and document the usage of the new SystemDialog on Windows Win32 system.  
 - Research and develop High DPI scaling on Windows and research virtual coordinate system and conversion to Pixel coordinate system.  
 
-### Studies
+## Studies
 
 **2010 - 2015 Eötvös Loránd University, Budapest**  
 BSc Software Engineering  
