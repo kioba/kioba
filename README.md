@@ -1,4 +1,4 @@
-## Charls Somodi
+## Charles Somodi
 
 |nickname| Kioba|
 |:-:|:-:|
@@ -9,7 +9,7 @@
 
 |email |Twitter | Github| Medium|
 |:-: |:-: |:-:|:-:|
-|[![](//main.png)]("mailto:charlssom@gmail.com") |[![](//twitter.png)](https://twitter.com/kiobaa) |[![](https://github.com/kioba/kioba/blob/master/github.png)](https://github.com/kioba)| [![](//medium.png)](https://medium.com/@Kiomio)|
+|[![](main.png)]("mailto:charlssom@gmail.com") |[![](twitter.png)](https://twitter.com/kiobaa) |[![](github.png)](https://github.com/kioba)| [![](medium.png)](https://medium.com/@Kiomio)|
 |charlssom@gmail.com | @kiobaa| github.com/kioba|medium.com/@Kiomio|
 
 ## Blog
