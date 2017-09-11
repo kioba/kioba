@@ -9,14 +9,14 @@
 
 |email |Twitter | Github| Medium|
 |:-: |:-: |:-:|:-:|
-|[![](//main.png)]("mailto:charlssom@gmail.com") |[![](//twitter.png)](https://twitter.com/kiobaa) |[![](//github.png)](https://github.com/kioba)| [![](//medium.png)](https://medium.com/@Kiomio)|
+|[![](//main.png)]("mailto:charlssom@gmail.com") |[![](//twitter.png)](https://twitter.com/kiobaa) |[![](https://github.com/kioba/kioba/blob/master/github.png)](https://github.com/kioba)| [![](//medium.png)](https://medium.com/@Kiomio)|
 |charlssom@gmail.com | @kiobaa| github.com/kioba|medium.com/@Kiomio|
 
 ## Blog
   - [Handling search with RxJava2 and Kotlin](https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4)  
-  - [Baby steps in reactive programming with Kotlin (coming soon)](TODO)   
-  - [Smart RecycleAdapter Part I: BaseViewHolder and Binding (coming soon)](TODO)  
-  - [Smart RecycleAdapter Part II: Handling events (coming soon)](TODO)  
+  - [Baby steps in reactive programming with Kotlin (coming soon)](https://medium.com/@Kiomio)   
+  - [Smart RecycleAdapter Part I: BaseViewHolder and Binding (coming soon)](https://medium.com/@Kiomio)  
+  - [Smart RecycleAdapter Part II: Handling events (coming soon)](https://medium.com/@Kiomio)  
 
 ## Languages
 Kotlin, Java, Rust, C/C++, C#, Python
