@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karoly Somodi [Kioba]</title>
+    <description>Kioba`s blog</description>
+    <link>http://localhost:4000/kioba/</link>
+    <atom:link href="http://localhost:4000/kioba/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 20 Jan 2019 19:06:31 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Jan 2019 19:06:31 +0000</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Curriculum Vitae</title>
+        <description>&lt;h3 id=&quot;key-skills&quot;&gt;Key skills&lt;/h3&gt;
+&lt;p&gt;functional programming advocate &lt;br /&gt;
+Kotlin, Scala, Swift, Rust, C/C++, C#, Python&lt;br /&gt;
+Android, IOS, mobile architectures (MVI, MVRx, MVVM, MVP)&lt;/p&gt;
+
+&lt;h3 id=&quot;blog&quot;&gt;Blog&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4&quot;&gt;Handling search with RxJava2 and Kotlin&lt;/a&gt;&lt;/strong&gt; (featured in kotlin weekly #55)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@Kiomio/baby-steps-to-reactive-programming-a9f5f771e29d&quot;&gt;Baby steps to reactive programming with Kotlin&lt;/a&gt;&lt;/strong&gt; (featured in kotlin weekly #61)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;career&quot;&gt;Career&lt;/h3&gt;
+
+&lt;h4 id=&quot;android-architect&quot;&gt;&lt;strong&gt;Android Architect&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;October 2017 - Present&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Yoyo Wallet&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;http://yoyowallet.com/&quot;&gt;yoyowallet.com&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+I have joined to architect the existing codebase for the android apps and teach the team for architecture, object-oriented and functional patterns.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Established an MVP architecture with Dagger2 and RxJava and lead the transformation.&lt;/li&gt;
+  &lt;li&gt;Provided an easy way to handle android LifeCycle with RxJava.&lt;/li&gt;
+  &lt;li&gt;Established a recycler view architecture to make sure the app is capable to handle a heavy usage of multiple view-holder types.&lt;/li&gt;
+  &lt;li&gt;Made sure the Gradle build files are clean and the source code is debuggable.&lt;/li&gt;
+  &lt;li&gt;Improved stability and performance, boosted crash free sessions up to 99.8%.&lt;/li&gt;
+  &lt;li&gt;Planned and coordinated the codebase modularization.&lt;/li&gt;
+  &lt;li&gt;Mentored members of the team and improved the onboarding process.&lt;/li&gt;
+  &lt;li&gt;Delivered presentations and documentation around improvements to the Android codebase and proactive contributed to the company knowledge sharing culture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;kotlin-android-freelancer&quot;&gt;&lt;strong&gt;Kotlin Android Freelancer&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;June 2017 - Sep 2017 (4 months)&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Radeeo&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;http://radeeo.net/&quot;&gt;radeeo.net&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+I have been working together with Makery on a radio streaming android app.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We used pure Kotlin with Rxjava and Retrofit2.&lt;/li&gt;
+  &lt;li&gt;We used Clean architecture with the help of Dagger2 dependency injection.&lt;/li&gt;
+  &lt;li&gt;For the UI the XML ConstraintLayout was used. The streams were handled with the ExoPlayer2 library.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;cc-software-engineer&quot;&gt;&lt;strong&gt;C#/C++ Software Engineer&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Jun 2016 - May 2017 (1 year)&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Ustream an IBM company&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;http://www.ustream.tv/&quot;&gt;ustream.tv&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+  Architect and develop a Windows desktop application(.Net framework) for camera and desktop live video streaming. The capture and frame transformation was handled with Microsoft Media Foundation.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reconstruct the existing architecture for supporting faster live video and audio frame handling and desktop capturing.&lt;/li&gt;
+  &lt;li&gt;Introduced minor documentation, logging, crash analytics and laid down the base for Continuous Integration (CI).&lt;/li&gt;
+  &lt;li&gt;Introduced NuGet package management to make the development faster and the release process smoother. For multithreading and handling UI logic I introduced the reactive extension with Rx.NET.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;cc-software-engineer-1&quot;&gt;&lt;strong&gt;C/C++ Software Engineer&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;July 2013 - May 2016 (2 years 11 months)&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Graphisoft SE &lt;a href=&quot;http://www.graphisoft.com/&quot;&gt;graphisoft.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I was responsible for research and develop the cross platform (Windows &amp;amp; OSX) Graphical User Interface library with the GUI team for ARCHICAD which is used to design new buildings in 2D or 3D. Among the maintenance of the library I participated in planning for the future projects.&lt;/p&gt;
+
+&lt;p&gt;Projects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Research and develop the new TabBar Widget &lt;a href=&quot;https://youtu.be/kF__x0xJ7gc&quot;&gt;video link&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Develop a flat UI widget design system &lt;a href=&quot;https://youtu.be/JVIlzxnnLmA&quot;&gt;video link&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Research and document the usage of the new SystemDialog on Windows Win32 system.&lt;/li&gt;
+  &lt;li&gt;Research and develop High DPI scaling on Windows and research virtual coordinate system and conversion to Pixel coordinate system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;studies&quot;&gt;Studies&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Eötvös Loránd University, Budapest&lt;br /&gt;
+2010 - 2015&lt;/strong&gt;&lt;br /&gt;
+BSc Software Engineering&lt;br /&gt;
+Thesis: OpenGL GUI library with text rendering engine &lt;a href=&quot;https://github.com/kioba/OGLFontRendering.git&quot;&gt;GitHub link&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Jan 2019 17:17:23 +0000</pubDate>
+        <link>http://localhost:4000/kioba/2019/curriculum-vitae/</link>
+        <guid isPermaLink="true">http://localhost:4000/kioba/2019/curriculum-vitae/</guid>
+        
+        <category>hire</category>
+        
+        
+        <category>hire</category>
+        
+      </item>
+    
+  </channel>
+</rss>

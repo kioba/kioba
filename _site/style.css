@@ -1,0 +1,44 @@
+.drawer-header {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 16px;
+  height: 151px;
+}
+
+.grid-content {
+  max-width: 1080px;
+}
+.kioba-card-square-language {
+  width: 240px;
+  height: 240px;
+}
+
+.kioba-margin-cell {
+  margin: 8px;
+}
+
+.kioba-separator {
+  width: 32px;
+}
+
+.kioba-card-image {
+  background: url('./london.jpg') center / cover;
+}
+.kioba-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.kioba-card-image__filename {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
