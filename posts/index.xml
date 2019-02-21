@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog</title>
+    <link>https://kioba.github.io/posts/</link>
+    <description>Recent content in Posts on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kioba.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Baby steps to Functional programming with Kotlin</title>
+      <link>https://kioba.github.io/posts/2017_09_27_baby_steps/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kioba.github.io/posts/2017_09_27_baby_steps/</guid>
+      <description>&lt;p&gt;When I started to work with RxJava it was extremely hard to get used to the reactive way of thinking and get a grasp on those wide ranges of operators, but no matter the difficulty the benefits are clear. With reactive programming, the code becomes good structured and beautifully organized.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

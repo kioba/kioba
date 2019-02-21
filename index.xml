@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>https://kioba.github.io/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kioba.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://kioba.github.io/about/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kioba.github.io/about/</guid>
+      <description>Key skills functional programming advocate
+Kotlin, Scala, Swift, Rust, C/C++, C#, Python
+Android, IOS, mobile architectures (MVI, MVRx, MVVM, MVP)
+Blog  Handling search with RxJava2 and Kotlin (featured in kotlin weekly #55) Baby steps to reactive programming with Kotlin (featured in kotlin weekly #61)  Career Android Architect October 2017 - Present
+Yoyo Wallet
+yoyowallet.com
+I have joined to architect the existing codebase for the android apps and teach the team for architecture, object-oriented and functional patterns.</description>
+    </item>
+    
+    <item>
+      <title>Baby steps to Functional programming with Kotlin</title>
+      <link>https://kioba.github.io/posts/2017_09_27_baby_steps/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kioba.github.io/posts/2017_09_27_baby_steps/</guid>
+      <description>&lt;p&gt;When I started to work with RxJava it was extremely hard to get used to the reactive way of thinking and get a grasp on those wide ranges of operators, but no matter the difficulty the benefits are clear. With reactive programming, the code becomes good structured and beautifully organized.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
