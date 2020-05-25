@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Coffee with Kioba</title>
+        <link>https://kioba.dev/posts</link>
+        <description>App devlog and programming blog</description>
+        <lastBuildDate>Mon, 25 May 2020 12:16:20 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Elmstatic</generator>
+        <language>en</language>
+        <image>
+            <title>Coffee with Kioba</title>
+            <url>https://kioba.dev/img/logo.png</url>
+            <link>https://kioba.dev/posts</link>
+        </image>
+        <copyright>Copyright: Karoly Somodi [kioba]</copyright>
+        <item>
+            <title><![CDATA[I'm using Elmstatic for my blog]]></title>
+            <link>https://kioba.dev/posts/2019-01-01-using-elmstatic</link>
+            <guid>https://kioba.dev/posts/2019-01-01-using-elmstatic</guid>
+            <pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Elmstatic is a static blog generator
+
+It allows you to write pages in Elm, and blog posts in Markdown.
+
+This is an example of a post
+
+Code is highlighted using Highlight.js:
+
+view : Header v m -> List (Element PageStyles v m) -> Html.Html m
+view header contentElems =
+    viewport stylesheet <|
+        column Main
+            [ center, width (percent 100) ]
+            [ header
+            , column Main
+                [ width <| px 800, spacingXY 0 10, alignLeft ]
+                contentElems
+  ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Another post]]></title>
+            <link>https://kioba.dev/posts/2019-01-02-another-post</link>
+            <guid>https://kioba.dev/posts/2019-01-02-another-post</guid>
+            <pubDate>Wed, 02 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is another example of a blog post.
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+Heading 4
+
+Heading 5
+
+Heading 6
+
+Bold italic underline inline code....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Capt Compass Episode 0]]></title>
+            <link>https://kioba.dev/posts/02-05-2020-s_episode_0</link>
+            <guid>https://kioba.dev/posts/02-05-2020-s_episode_0</guid>
+            <pubDate>Wed, 05 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[My first app and first season!
+
+The idea
+
+It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.
+
+I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other. For that reason, I started this project to allow me to keep track of m...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Elm Blog Episode 0]]></title>
+            <link>https://kioba.dev/posts/02-05-2020-isode_0</link>
+            <guid>https://kioba.dev/posts/02-05-2020-isode_0</guid>
+            <pubDate>Wed, 05 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[stack
+
+elmstatic
+
+Elm-UI
+
+Semantic UI
+
+conclusion
+...]]></description>
+        </item>
+    </channel>
+</rss>
