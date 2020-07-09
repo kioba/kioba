@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>capt_compass on Lambda with Kioba</title>
+    <link>https://kioba.dev/tags/capt_compass/</link>
+    <description>Recent content in capt_compass on Lambda with Kioba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://kioba.dev/tags/capt_compass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capt Compass Episode 0</title>
+      <link>https://kioba.dev/posts/capt_compass_e0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kioba.dev/posts/capt_compass_e0/</guid>
+      <description>My first app and first season!
+The idea It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.
+I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other.</description>
+    </item>
+    
+  </channel>
+</rss>

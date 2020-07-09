@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Capt Compass Episode 0
+        :: Lambda with Kioba</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description"
+  content="My first app and first season!
+The idea It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.
+I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other." />
+<meta name="keywords"
+  content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://kioba.dev/posts/capt_compass_e0/" />
+
+
+<link rel="stylesheet" href="https://kioba.dev/assets/style.css">
+</head>
+
+<body class="">
+    
+
+    <div class="container center headings--one-size">
+
+        <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://kioba.dev/">
+        <div class="header__title">
+          <pre>
+██╗  ██╗██╗ ██████╗ ██████╗  █████╗ 
+██║ ██╔╝██║██╔═══██╗██╔══██╗██╔══██╗
+█████╔╝ ██║██║   ██║██████╔╝███████║
+██╔═██╗ ██║██║   ██║██╔══██╗██╔══██║
+██║  ██╗██║╚██████╔╝██████╔╝██║  ██║
+╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝
+</pre>
+        </div>
+      </a>
+    </div>
+    
+  </div>
+  
+</header>
+
+        <div class="content">
+            
+<div class="post">
+  <div class="post-meta">
+    
+    
+  </div>
+
+  <h1 class="post-title">
+    <a href="https://kioba.dev/posts/capt_compass_e0/">Capt Compass Episode 0</a></h1>
+
+  
+  <span class="post-tags">
+    
+    <a href="https://kioba.dev/tags/flutter/">{-flutter-}</a>
+    
+    <a href="https://kioba.dev/tags/devlog/">{-devlog-}</a>
+    
+    <a href="https://kioba.dev/tags/capt_compass/">{-capt_compass-}</a>
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+      <p>My first app and first season!</p>
+<h2 id="the-idea">The idea<a href="#the-idea" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.</p>
+<p>I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other. For that reason, I started this project to allow me to keep track of my life.</p>
+<h2 id="design">Design<a href="#design" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I visited Dribble just to get a small amount of inspiration for the design. I was looking for a less illustration-heavy UI which doesn&rsquo;t render the UX too complicated. I lack UI design experience, so I was keeping it a functional solution that allows me to make an easy start.</p>
+<p>I found a surprisingly simple but same time manageable design. Bulky components with rounded edges are trendy and they are also easy to develop, so I decided to go with the following design.</p>
+<p><img src="https://cdn.dribbble.com/users/1997192/screenshots/6731723/app_03_shot.png" alt="scheduler design">
+[<a href="https://dribbble.com/shots/6731723-Daily-Task-Schedule-App">design source</a>]</p>
+<p>There are a few weaknesses but good to get started. Later on, as the features evolve, I will revisit the design to fix UX issues.</p>
+<h2 id="framework">Framework<a href="#framework" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Flutter has been on my radar for a while now but it always felt like a distant, futuristic framework. I wasn&rsquo;t sure if it would be a good investment but curiosity always kept me in the loop. I have been visiting local meetup with friends and discussing the benefits and drawbacks of Flutter. I was always proud to develop with the platform frameworks. Lately, I felt the platform framework just pulls me back, so I choose Flutter for a project and I couldn&rsquo;t be more right on this one.</p>
+<p><img src="https://external-preview.redd.it/bY6e9huoyhfdARItPyRVmdCTq0KmYqTYTcwPt7-LOFI.jpg?auto=webp&amp;s=73ea3aea8b6f8b37565ffe1f6a8366c36dbbdaef" alt="flutter"></p>
+<h2 id="project">Project<a href="#project" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Github repository and kanban project has been set up with feature tickets. Milestones have been assigned splitting up the work between releases. Some tickets already have been moved to the done column and as the project continues to develop, new tickets will be created with new milestones.</p>
+<p><img src="images/capt_compass_episode_0_project.png" alt="project"></p>
+<h3 id="pull-requests">Pull Requests<a href="#pull-requests" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>I am currently working alone, but that does not stop me using tools in the ecosystem to automate checks on my work. Github CI workflow has been created for PRs to keep master stable. The workflows execute the analyser tool, run the tests and builds the debug app. When The PR gets merged the same series of checks are going to be executed in release mode.</p>
+<h3 id="creating-releases">Creating releases<a href="#creating-releases" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Creating a release has been automated. A tag creation on master branch triggers an alpha release build and publish but only for the Android Play Store currently. As an Android developer, I was familiar with how the Google ecosystem works for app publishing but I will include IOS release in the future.</p>
+<h3 id="documentation">Documentation<a href="#documentation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>I was thinking about writing documentation for the project. As long as I&rsquo;m in the learning phase and there is no co-author for the project I feel the docs would only generate overhead to my schedule. In the future, I might provide developer docs, for now, I keep it simple and essentials only.</p>
+<h2 id="current-progress">Current progress<a href="#current-progress" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Users can add new tasks including a title, note and date. Without title and date, tasks can&rsquo;t be created. I am still not decided yet to allow task creation without a date. Attaching task to a specific date feels necessary but skipping exact time might be possible in the future.</p>
+<p>The tasks organised in due date order on the home screen. The month calendar behind the home page felt a good idea first but feels hidden after using the app for a while. I started to worry that the UX won&rsquo;t allow the calendar discovery. A simple week view on the top of the page would be a better choice and I am planning to change in the close future.</p>
+<table>
+<thead>
+<tr>
+<th>create page</th>
+<th>home page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="images/capt_compass_episode_0_create.png" alt="create task"></td>
+<td><img src="images/capt_compass_episode_0_tasks.png" alt="home screen"></td>
+</tr>
+</tbody>
+</table>
+<p>Tasks now selectable, which takes the users to the detail screen. Currently functionality limited, but the title, notes and date already visible on the page. Deleting a task was one of the first features got added to the detail page. It boosted my confidence in the integration and helped me keep all the test clear.</p>
+<p>Editing a task first sounds an easy assignment but quickly became a challenge. I modified the create screen to allow autofill if a task id provided with navigation. This was simple, until I realised, back navigation does not update the detail screen. Luckily, the Moor library provides stream capability for a query so any change in the database can be observed. Integrating the home and detail screen with stream solution resolved update issue but introduced architectural headaches.</p>
+<table>
+<thead>
+<tr>
+<th>detail page</th>
+<th>calendar view</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="images/capt_compass_episode_0_details.png" alt="details"></td>
+<td><img src="images/capt_compass_episode_0_calendar.png" alt="home screen"></td>
+</tr>
+</tbody>
+</table>
+<p>The architecture decision forced me to look up possible design patterns. I was stalling this for a while and I still didn&rsquo;t feel the right time to start to deal with it. I tried out two alternatives, the simple provider and Bloc patterns.</p>
+<p>The unidirectional dataflow from the Bloc pattern was promising but the lack of ADT support wasn&rsquo;t ideal. It also needed extra code to implement and I felt struggle to navigate around the final codebase. I ended up scraping the Bloc pattern and go with an uncomplicated provider design.</p>
+<p>It is a fair amount of work added to the project already but we are not close to the end! <code>0.2.0</code> has been released and it can be installed from the play store via the <a href="https://play.google.com/apps/testing/dev.kioba.capt.compass">beta link</a>.</p>
+<p>As you can see, this release is already pre-alpha phase and far from stable. If you install the app, please remember that an update can remove any data, make sure data saved.</p>
+<p>If you have any suggestion or bug report, feel free to reach out to me.</p>
+<p>hope I will see you in the next episode!</p>
+
+    </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="https://kioba.dev/posts/devlog/">
+                <span class="button__text">Devlog</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+</div>
+
+        </div>
+
+        
+        
+        
+    </div>
+
+</body>
+
+</html>

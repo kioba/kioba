@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://kioba.dev/readme/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/posts/capt_compass_e0/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/tags/capt_compass/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/posts/devlog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/tags/devlog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/tags/flutter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kioba.dev/tags/</loc>
+  </url>
+  
+</urlset>
