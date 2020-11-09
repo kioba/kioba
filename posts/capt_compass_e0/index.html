@@ -1,37 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 
 <head>
-    
-    <title>Capt Compass Episode 0
-        :: Lambda with Kioba</title>
-    
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description"
-  content="My first app and first season!
-The idea It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.
-I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other." />
-<meta name="keywords"
-  content="" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="https://kioba.dev/posts/capt_compass_e0/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
+
+   
+   
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+   
+  ul[class],
+  ol[class] {
+    padding: 0;
+  }
+
+   
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+    padding: 0;
+  }
+
+   
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+   
+  ul[class],
+  ol[class] {
+    list-style: none;
+  }
+
+   
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+
+   
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+   
+  article>*+* {
+    margin-top: 1em;
+  }
+
+   
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+   
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 
 
-<link rel="stylesheet" href="https://kioba.dev/assets/style.css">
+
+
+
+
+  *,
+  *::before,
+  *::after {
+    font-family: 'Fira Code', monospace;
+    letter-spacing: -0.06em;
+    font-size: 1.01em;
+  }
+
+  :root {
+    --background-color: #282828;
+    --primary: #fc3e44;
+    --tags: #3d4555;
+    --text-color: #dadee4;
+    --tags-color: #d2d2d2;
+    --date_color: #e5e9f093;
+    --header-background: #282828;
+    --header-title: #fc3e44;
+  }
+
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+
+  .container {
+    display: flexbox;
+  }
+
+  .row {
+    display: inline-flex;
+  }
+
+  #content {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .header {
+    margin: 0em auto;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    background-color: var(--header-background);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .header>a {
+    color: var(--header-title);
+    text-decoration: none !important;
+  }
+
+  #date {
+    color: var(--date_color);
+  }
+
+  .row.tags {
+    flex-wrap: wrap;
+
+    margin: -12px 0 0 -12px;
+    width: calc(100% + 12px);
+  }
+
+  .row.tags>* {
+    margin: 12px 0 0 12px;
+  }
+
+  .row.tags>div {
+    padding: 4px 10px;
+
+    border-radius: 8px;
+    color: var(--tags-color);
+    background-color: var(--tags);
+  }
+
+  .title {
+    color: var(--primary);
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: x-large;
+    margin-bottom: 12px;
+  }
+
+  .title a {
+    letter-spacing: .2em;
+    color: var(--primary);
+    text-decoration: none !important;
+  }
+
+  #read_more a {
+    color: var(--text-color);
+    text-decoration: none !important;
+  }
+
+  .summary {
+    margin: 30px 0px;
+  }
+
+  .separator {
+    margin: 40px 10px;
+    height: .1rem;
+    background-color: grey;
+    border-radius: 16px;
+  }
+
+  .separator:last-child {
+    display: none;
+  }
+
+
+
+
+
+  .post .post-content {
+    padding-top: 2rem;
+  }
+
+  .post-content>h1 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h1::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h2::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h3::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>h4 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h4::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>h5 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h5::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+  .post-content>h6::before {
+    content: "# ";
+    color: var(--primary);
+  }
+
+  .post-content>p>img {
+    margin: 1.5em auto;
+    width: 95%;
+  }
+
+  .post-content a,
+  .summary a {
+    color: var(--primary);
+    filter: brightness(1.4);
+  }
+
+  .post-content table {
+    color: var(--primary);
+    margin: 1em auto;
+    border-spacing: 1em;
+    border: 2px dashed var(--primary);
+  }
+</style>
 </head>
 
-<body class="">
-    
-
-    <div class="container center headings--one-size">
-
-        <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="https://kioba.dev/">
-        <div class="header__title">
-          <pre>
+<body>
+    <div>
+        <div class="header">
+  <a href="https://kioba.dev/">
+    <pre>
 ██╗  ██╗██╗ ██████╗ ██████╗  █████╗ 
 ██║ ██╔╝██║██╔═══██╗██╔══██╗██╔══██╗
 █████╔╝ ██║██║   ██║██████╔╝███████║
@@ -39,65 +310,56 @@ I needed a tool which lets me log my schedule and assign tasks to them. I have b
 ██║  ██╗██║╚██████╔╝██████╔╝██║  ██║
 ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝
 </pre>
-        </div>
-      </a>
-    </div>
-    
-  </div>
-  
-</header>
+  </a>
+</div>
 
-        <div class="content">
+        <div id="content">
             
 <div class="post">
-  <div class="post-meta">
+  <div class="container">
+    <div class="row">
+      <div id="date">Published on 02 May 2020</div>
+    </div>
+    <div class="title">
+      <h2>
+        Capt Compass Episode 0
+      </h2>
+    </div>
     
+    <div class="row tags">
+      
+      <div>flutter</div>
+      
+      <div>devlog</div>
+      
+      <div>capt_compass</div>
+      
+    </div>
     
-  </div>
 
-  <h1 class="post-title">
-    <a href="https://kioba.dev/posts/capt_compass_e0/">Capt Compass Episode 0</a></h1>
-
-  
-  <span class="post-tags">
-    
-    <a href="https://kioba.dev/tags/flutter/">{-flutter-}</a>
-    
-    <a href="https://kioba.dev/tags/devlog/">{-devlog-}</a>
-    
-    <a href="https://kioba.dev/tags/capt_compass/">{-capt_compass-}</a>
-    
-  </span>
-  
-
-  
-
-  
-
-  <div class="post-content"><div>
-      <p>My first app and first season!</p>
-<h2 id="the-idea">The idea<a href="#the-idea" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+    <div class="post-content"><p>My first app and first season!</p>
+<h2 id="the-idea">The idea</h2>
 <p>It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.</p>
 <p>I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other. For that reason, I started this project to allow me to keep track of my life.</p>
-<h2 id="design">Design<a href="#design" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="design">Design</h2>
 <p>I visited Dribble just to get a small amount of inspiration for the design. I was looking for a less illustration-heavy UI which doesn&rsquo;t render the UX too complicated. I lack UI design experience, so I was keeping it a functional solution that allows me to make an easy start.</p>
 <p>I found a surprisingly simple but same time manageable design. Bulky components with rounded edges are trendy and they are also easy to develop, so I decided to go with the following design.</p>
 <p><img src="https://cdn.dribbble.com/users/1997192/screenshots/6731723/app_03_shot.png" alt="scheduler design">
 [<a href="https://dribbble.com/shots/6731723-Daily-Task-Schedule-App">design source</a>]</p>
 <p>There are a few weaknesses but good to get started. Later on, as the features evolve, I will revisit the design to fix UX issues.</p>
-<h2 id="framework">Framework<a href="#framework" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="framework">Framework</h2>
 <p>Flutter has been on my radar for a while now but it always felt like a distant, futuristic framework. I wasn&rsquo;t sure if it would be a good investment but curiosity always kept me in the loop. I have been visiting local meetup with friends and discussing the benefits and drawbacks of Flutter. I was always proud to develop with the platform frameworks. Lately, I felt the platform framework just pulls me back, so I choose Flutter for a project and I couldn&rsquo;t be more right on this one.</p>
 <p><img src="https://external-preview.redd.it/bY6e9huoyhfdARItPyRVmdCTq0KmYqTYTcwPt7-LOFI.jpg?auto=webp&amp;s=73ea3aea8b6f8b37565ffe1f6a8366c36dbbdaef" alt="flutter"></p>
-<h2 id="project">Project<a href="#project" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="project">Project</h2>
 <p>Github repository and kanban project has been set up with feature tickets. Milestones have been assigned splitting up the work between releases. Some tickets already have been moved to the done column and as the project continues to develop, new tickets will be created with new milestones.</p>
 <p><img src="images/capt_compass_episode_0_project.png" alt="project"></p>
-<h3 id="pull-requests">Pull Requests<a href="#pull-requests" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="pull-requests">Pull Requests</h3>
 <p>I am currently working alone, but that does not stop me using tools in the ecosystem to automate checks on my work. Github CI workflow has been created for PRs to keep master stable. The workflows execute the analyser tool, run the tests and builds the debug app. When The PR gets merged the same series of checks are going to be executed in release mode.</p>
-<h3 id="creating-releases">Creating releases<a href="#creating-releases" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="creating-releases">Creating releases</h3>
 <p>Creating a release has been automated. A tag creation on master branch triggers an alpha release build and publish but only for the Android Play Store currently. As an Android developer, I was familiar with how the Google ecosystem works for app publishing but I will include IOS release in the future.</p>
-<h3 id="documentation">Documentation<a href="#documentation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="documentation">Documentation</h3>
 <p>I was thinking about writing documentation for the project. As long as I&rsquo;m in the learning phase and there is no co-author for the project I feel the docs would only generate overhead to my schedule. In the future, I might provide developer docs, for now, I keep it simple and essentials only.</p>
-<h2 id="current-progress">Current progress<a href="#current-progress" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="current-progress">Current progress</h2>
 <p>Users can add new tasks including a title, note and date. Without title and date, tasks can&rsquo;t be created. I am still not decided yet to allow task creation without a date. Attaching task to a specific date feels necessary but skipping exact time might be possible in the future.</p>
 <p>The tasks organised in due date order on the home screen. The month calendar behind the home page felt a good idea first but feels hidden after using the app for a while. I started to worry that the UX won&rsquo;t allow the calendar discovery. A simple week view on the top of the page would be a better choice and I am planning to change in the close future.</p>
 <table>
@@ -136,39 +398,15 @@ I needed a tool which lets me log my schedule and assign tasks to them. I have b
 <p>As you can see, this release is already pre-alpha phase and far from stable. If you install the app, please remember that an update can remove any data, make sure data saved.</p>
 <p>If you have any suggestion or bug report, feel free to reach out to me.</p>
 <p>hope I will see you in the next episode!</p>
-
-    </div></div>
-
-  
-  
-<div class="pagination">
-    <div class="pagination__title">
-        <span class="pagination__title-h"></span>
-        <hr />
-    </div>
-    <div class="pagination__buttons">
-        
-        
-        <span class="button next">
-            <a href="https://kioba.dev/posts/devlog/">
-                <span class="button__text">Devlog</span>
-                <span class="button__icon">→</span>
-            </a>
-        </span>
-        
-    </div>
 </div>
-
-  
+  </div>
 </div>
 
         </div>
 
         
-        
-        
-    </div>
 
+    </div>
 </body>
 
 </html>

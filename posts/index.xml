@@ -6,14 +6,11 @@
     <description>Recent content in Posts on Lambda with Kioba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    
-	<atom:link href="https://kioba.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kioba.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capt Compass Episode 0</title>
       <link>https://kioba.dev/posts/capt_compass_e0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kioba.dev/posts/capt_compass_e0/</guid>
       <description>My first app and first season!
@@ -24,7 +21,7 @@ I needed a tool which lets me log my schedule and assign tasks to them. I have b
     <item>
       <title>Devlog</title>
       <link>https://kioba.dev/posts/devlog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kioba.dev/posts/devlog/</guid>
       <description>Revelation I hope one day I stop building other&amp;rsquo;s dream and start working on my own. to achieve that I decided I will pick up a few abandoned projects. Dust them off, and make it to the first release.
