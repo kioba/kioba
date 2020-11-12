@@ -99,7 +99,6 @@
   *::after {
     font-family: 'Fira Code', monospace;
     letter-spacing: -0.06em;
-    font-size: 1.01em;
   }
 
   :root {
@@ -162,11 +161,10 @@
     margin: 12px 0 0 12px;
   }
 
-  .row.tags>div {
+  .row.tags div {
     padding: 4px 10px;
 
     border-radius: 8px;
-    color: var(--tags-color);
     background-color: var(--tags);
   }
 
@@ -202,6 +200,11 @@
 
   .separator:last-child {
     display: none;
+  }
+
+  .tags_link {
+    text-decoration: none !important;
+    color: var(--tags-color);
   }
 
 
@@ -295,6 +298,10 @@
     border-spacing: 1em;
     border: 2px dashed var(--primary);
   }
+
+  .highlight {
+    background-color: #fc3e44;
+  }
 </style>
 </head>
 
@@ -337,11 +344,23 @@
   
   <div class="row tags">
     
-    <div>flutter</div>
+    <a class="tags_link" href="https://kioba.dev/tags/flutter/">
+      <div>
+        flutter
+      </div>
+    </a>
     
-    <div>devlog</div>
+    <a class="tags_link" href="https://kioba.dev/tags/devlog/">
+      <div>
+        devlog
+      </div>
+    </a>
     
-    <div>capt_compass</div>
+    <a class="tags_link" href="https://kioba.dev/tags/capt_compass/">
+      <div>
+        capt_compass
+      </div>
+    </a>
     
   </div>
   
