@@ -345,138 +345,56 @@
 
         <div id="content">
             
-
-
-
-
-
-
-
-
-<div class="container">
-  <div class="row">
-    <div id="date">Published on 11 Apr 2021</div>
-  </div>
-  <div class="title">
-    <a href="https://kioba.dev/posts/capt_compass_e1/">
-      <h3>
+<div class="post">
+  <div class="container">
+    <div class="row">
+      <div id="date">Published on 11 Apr 2021</div>
+    </div>
+    <div class="title">
+      <h2>
         Capt Compass E1 - cleaning up the codebase
-      </h3>
-    </a>
-  </div>
-  
-  <div class="row tags">
+      </h2>
+    </div>
     
-    <a class="tags_link" href="https://kioba.dev/tags/flutter/">
-      <div>
-        flutter
-      </div>
-    </a>
+    <div class="row tags">
+      
+      <a class="tags_link" href="https://kioba.dev/tags/flutter/">
+        <div>
+          flutter
+        </div>
+      </a>
+      
+      <a class="tags_link" href="https://kioba.dev/tags/devlog/">
+        <div>
+          devlog
+        </div>
+      </a>
+      
+      <a class="tags_link" href="https://kioba.dev/tags/capt_compass/">
+        <div>
+          capt_compass
+        </div>
+      </a>
+      
+    </div>
     
-    <a class="tags_link" href="https://kioba.dev/tags/devlog/">
-      <div>
-        devlog
-      </div>
-    </a>
-    
-    <a class="tags_link" href="https://kioba.dev/tags/capt_compass/">
-      <div>
-        capt_compass
-      </div>
-    </a>
-    
-  </div>
-  
-  <div class="summary">
-    A lot has happened since the latest devlog. Almost a year passed without an update. The pandemic and switching job kept my focus away from my side project, but I am finally back and keep pushing the limits. No new or left behind the project as promised! So let&rsquo;s just jump in the code see what needs to change under the hood!
-initial mistakes The initial code started without knowing exactly which state management fits my needs better, to be honest, I was experimenting a lot.
-  </div>
-  <div id="read_more">
-    <a href="https://kioba.dev/posts/capt_compass_e1/">read more →</a>
+
+    <div class="post-content"><p>A lot has happened since the latest devlog. Almost a year passed without an update. The pandemic and switching job kept my focus away from my side project, but I am finally back and keep pushing the limits. No new or left behind the project as promised! So let&rsquo;s just jump in the code see what needs to change under the hood!</p>
+<!-- raw HTML omitted -->
+<h2 id="initial-mistakes">initial mistakes</h2>
+<p>The initial code started without knowing exactly which state management fits my needs better, to be honest, I was experimenting a lot. So much so that it felt I was wasting too much time discovering the best solution. I understood the existing state management in the community better but things were not progressing and the app flooded with costume solutions. Each screen in my small app had either custom state management or handling the database in the wrong places. Something had to be done and maybe this is just the right time to do so.</p>
+<h2 id="removing-dead-weight">removing dead weight</h2>
+<p>Different state management implementations for each screen troubled me for a long time. I was not confident enough to open a screen and know instantly how I can modify it. I always had to think before coding but they never made big challenges enough to modify them so I just kept them around.</p>
+<p>With Flutter 2 on the horizon and null safety Dart, it became clear that I have to get rid of these experimentations otherwise I have to manually upgrade them for null safety. To be able to do that I should have to read the docs and understand the introduction of null safety for each lib. After a few initial try, I decided that there is not much benefit of wasting my time in docs but I would rather get rid of them while I am not committed more.</p>
+<h2 id="removing-bloc-and-rx">removing Bloc and Rx</h2>
+<p><code>Bloc</code> lib was on my list to purge from the codebase. It might be an elegant solution but did not enjoy working with the lib. It was just too much boilerplate for even the smallest code change. While some of the stuff could be eliminated with <code>Freezed</code> I decided to simply ditch the lib.</p>
+<p>How hard could it be to get rid of state management? Good thing you ask, it was a pretty much okay experience, the hardest part was getting the right providers for the correct places and fighting with nullability. Overall I was quite pleased how much code I was able to get rid of just removing the <code>bloc</code> library.</p>
+<p><code>RxDart</code> also could be eliminated from the codebase replaced most of the places with <code>Future</code>, only a few parts of the API required <code>Stream</code> dependency which I am super pleased with.</p>
+<h2 id="summary">summary</h2>
+<p>Good progress on both the codebase and now I feel confident to change the codebase on every screen without finding an unexpected pattern that I have to think about how to change.</p>
+</div>
   </div>
 </div>
-<div class="separator"></div>
-
-<div class="container">
-  <div class="row">
-    <div id="date">Published on 02 May 2020</div>
-  </div>
-  <div class="title">
-    <a href="https://kioba.dev/posts/capt_compass_e0/">
-      <h3>
-        Capt Compass Episode 0
-      </h3>
-    </a>
-  </div>
-  
-  <div class="row tags">
-    
-    <a class="tags_link" href="https://kioba.dev/tags/flutter/">
-      <div>
-        flutter
-      </div>
-    </a>
-    
-    <a class="tags_link" href="https://kioba.dev/tags/devlog/">
-      <div>
-        devlog
-      </div>
-    </a>
-    
-    <a class="tags_link" href="https://kioba.dev/tags/capt_compass/">
-      <div>
-        capt_compass
-      </div>
-    </a>
-    
-  </div>
-  
-  <div class="summary">
-    My first app and first season!
-The idea It takes a while to find a good niche on the app store, while I have been researching the field, I thought, it is a good idea to start building a tool for myself.
-I needed a tool which lets me log my schedule and assign tasks to them. I have been using calendar and todo application to keep track my daily work in the office and day to day life but they felt so distant from each other.
-  </div>
-  <div id="read_more">
-    <a href="https://kioba.dev/posts/capt_compass_e0/">read more →</a>
-  </div>
-</div>
-<div class="separator"></div>
-
-<div class="container">
-  <div class="row">
-    <div id="date">Published on 25 Apr 2020</div>
-  </div>
-  <div class="title">
-    <a href="https://kioba.dev/posts/devlog/">
-      <h3>
-        Devlog
-      </h3>
-    </a>
-  </div>
-  
-  <div class="row tags">
-    
-    <a class="tags_link" href="https://kioba.dev/tags/devlog/">
-      <div>
-        devlog
-      </div>
-    </a>
-    
-  </div>
-  
-  <div class="summary">
-    Revelation I hope one day I stop building other&rsquo;s dream and start working on my own. to achieve that I decided I will pick up a few abandoned projects. Dust them off, and make it to the first release.
-It was about time to start building towards my goals.
-The plan Starting a project can never happen without a plan. This is one of the first rules that I made sure I follow.
-  </div>
-  <div id="read_more">
-    <a href="https://kioba.dev/posts/devlog/">read more →</a>
-  </div>
-</div>
-<div class="separator"></div>
-
-
-
 
         </div>
 

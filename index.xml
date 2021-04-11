@@ -6,7 +6,17 @@
     <description>Recent content on Lambda with Kioba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kioba.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kioba.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capt Compass E1 - cleaning up the codebase</title>
+      <link>https://kioba.dev/posts/capt_compass_e1/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kioba.dev/posts/capt_compass_e1/</guid>
+      <description>A lot has happened since the latest devlog. Almost a year passed without an update. The pandemic and switching job kept my focus away from my side project, but I am finally back and keep pushing the limits. No new or left behind the project as promised! So let&amp;rsquo;s just jump in the code see what needs to change under the hood!
+initial mistakes The initial code started without knowing exactly which state management fits my needs better, to be honest, I was experimenting a lot.</description>
+    </item>
+    
     <item>
       <title>Capt Compass Episode 0</title>
       <link>https://kioba.dev/posts/capt_compass_e0/</link>
